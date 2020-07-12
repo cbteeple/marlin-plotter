@@ -37,6 +37,14 @@
 //
 #define SERVO0_PIN                         P2_00
 
+
+// 
+// Spindle/Laser
+//
+#define SPINDLE_LASER_ENA_PIN    P0_00   // digital pin
+#define SPINDLE_LASER_PWM_PIN    P2_00   // digital pin - MUST BE HARDWARE PWM
+#define SPINDLE_DIR_PIN          P0_01   // digital pin
+
 //
 // TMC StallGuard DIAG pins
 //
